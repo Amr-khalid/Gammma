@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="full.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="logo"><img  id="lol" src="lo1.png" ></div>
+<div class="x">
+<input type="file" id="ggg" style="display: none;">
+<label for="ggg" title="لتغير الخلفية"><i class="fa fa-gears" aria-hidden="true"></i></label>
+</div>
+<!---edit phote-->
+<div class="conp">
+    <div class="conPhote"> 
+    
+    <div class="boxPhote">
+    <img  id="img"  src="" style="display: none;" >
+    <canvas id="canvas" ></canvas>
+    <input type="file" id="file" style="display: none">
+    <label for="file">update</label>
+    </div>
+    <div class="filtars">
+    <ul>
+        <li>
+        <label for="blur">blur</label>
+        <input type="range" id="blur" value="0" max="10" step=".1">
+        </li>
+            <li>
+            <label for="contrast">contrast</label>
+            <input type="range" id="contrast" value="100" max="200" step="10">
+            </li>
+                <li>
+                <label for="brightness">brightness</label>
+                <input type="range" id="brightness" value="100" max="200" step="10">
+                </li>
+                    <li>
+                    <label for="sepia">sepia</label>
+                    <input type="range" id="sepia" value="0" max="200" step="10">
+                    </li>
+                    <li>
+                        <label for="grayscale">grayscale</label>
+                        <input type="range" id="grayscale" value="0" max="1" step=".1" min="0" >
+                        </li>
+                        <li>
+                            <label for="hue-rotate">hue-rotete</label>
+                            <input type="range" id="hue-rotate" min="0" value="0" max="350"  >
+                            </li>
+                    
+            <div style="display: flex; justify-content: space-between;" >
+                <span><a  id="ture"  download="ture">Download</a></span>
+                <span id="reset">reset</span>
+            </div>
+    </ul>
+    </div>
+    </div>
+    </div>
+    
+    
+
+
+
+
+
+
+<!--
+<div class="conp">
+<div class="conPhote"> 
+
+<div class="boxPhote">
+<img  id="img"  src="" >
+<canvas id="canvas" style="display: none"></canvas>
+<input type="file" id="file" style="display: none">
+<label for="file">update</label>
+</div>
+<div class="filtars">
+<ul>
+    <li>
+    <label for="blur">blur</label>
+    <input type="range" id="blur" value="0" max="10" step=".1">
+    </li>
+        <li>
+        <label for="contrast">contrast</label>
+        <input type="range" id="contrast" value="100" max="200" step="10">
+        </li>
+            <li>
+            <label for="brightness">brightness</label>
+            <input type="range" id="brightness" value="100" max="200" step="10">
+            </li>
+                <li>
+                <label for="sepia">sepia</label>
+                <input type="range" id="sepia" value="0" max="200" step="10">
+                </li>
+                <li>
+                    <label for="grayscale">grayscale</label>
+                    <input type="range" id="grayscale" value="0" max="1" step=".1" min="0" >
+                    </li>
+                    <li>
+                        <label for="hue-rotate">hue-rotete</label>
+                        <input type="range" id="hue-rotate" min="0" value="0" max="350"  >
+                        </li>
+                
+        <div style="display: flex; justify-content: space-between;" >
+            <span><a  id="ture"  download="">Download</a></span>
+            <span id="reset">reset</span>
+        </div>
+</ul>
+</div>
+</div>
+</div>-->
+<!--end Edit-->
+<div class="condo">
+<div class="o">
+<p class="p1">
+<p class="p2">
+<p class="p3">
+ <p class="p4">
+<p class="p5">
+    <p class="p6">
+</div>
+<div class="tx">
+    <input type="text" id="addtext" required title="ادخل مهمتك">
+    <button id="bnadd" title="اضف مهمتك">اضافة</button>
+</div>
+<div id="dell"></div>
+<div id="add">
+</div>
+</div>
+<!--end todo-->
+<div class="conrandom">
+<div class="conr">
+<input type="number" placeholder="عدد الفرق" id="tnum">
+<input type="number" placeholder="عدد اعضاء الفرق" id="jnum">
+<div id="clod">
+
+    
+</div>
+<table >
+    <thead id="table"></thead>
+<tbody id="tfo">
+
+</tbody>
+</table>
+
+<button id="buttom2"  > ادخال</button>
+
+<button id="buttom" >انشاء</button>
+</div>
+</div>
+<div id="sh">
+<div id="s1"> <i class="fas fa-tasks" aria-hidden="true"></i></div></a>
+<div id="s2"><i class="material-icons">add_a_photo</i></div>
+<div id="s3"  ><i class="fa fa-sitemap" > </i></div>
+<div id="s4" title="تغتح خيار التعديل في لاعلي"> <i class="fa fa-gear" aria-hidden="true"></i></div>
+
+</div>
+
+
+
+
+
+
+    <script src="full2.js"></script>
+</body>
+</html>
